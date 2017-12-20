@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422991CD1FB8900D009DB651 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422991CC1FB8900D009DB651 /* Extensions.swift */; };
+		422991CF1FB890FA009DB651 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422991CE1FB890FA009DB651 /* Constants.swift */; };
 		429735311FA9EEE000AB42BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429735301FA9EEE000AB42BC /* AppDelegate.swift */; };
 		429735331FA9EEE000AB42BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429735321FA9EEE000AB42BC /* ViewController.swift */; };
 		429735361FA9EEE000AB42BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429735341FA9EEE000AB42BC /* Main.storyboard */; };
 		429735381FA9EEE000AB42BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 429735371FA9EEE000AB42BC /* Assets.xcassets */; };
 		4297353B1FA9EEE000AB42BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429735391FA9EEE000AB42BC /* LaunchScreen.storyboard */; };
 		429735461FA9EEE000AB42BC /* CustomFontsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429735451FA9EEE000AB42BC /* CustomFontsTests.swift */; };
+		429735531FA9F08C00AB42BC /* helveticaneuew23forsky-reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 429735511FA9F08A00AB42BC /* helveticaneuew23forsky-reg.ttf */; };
+		429735541FA9F08C00AB42BC /* helveticaneuew23fosky-bd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 429735521FA9F08C00AB42BC /* helveticaneuew23fosky-bd.ttf */; };
+		42AC101E1FE9659F00E8A253 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42AC10201FE9659F00E8A253 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		422991CC1FB8900D009DB651 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		422991CE1FB890FA009DB651 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4297352D1FA9EEE000AB42BC /* CustomFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		429735301FA9EEE000AB42BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		429735321FA9EEE000AB42BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,12 @@
 		429735411FA9EEE000AB42BC /* CustomFontsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		429735451FA9EEE000AB42BC /* CustomFontsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontsTests.swift; sourceTree = "<group>"; };
 		429735471FA9EEE000AB42BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429735511FA9F08A00AB42BC /* helveticaneuew23forsky-reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "helveticaneuew23forsky-reg.ttf"; sourceTree = "<group>"; };
+		429735521FA9F08C00AB42BC /* helveticaneuew23fosky-bd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "helveticaneuew23fosky-bd.ttf"; sourceTree = "<group>"; };
+		42AC101A1FE9614000E8A253 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		42AC101B1FE9614000E8A253 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		42AC10211FE965A300E8A253 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		42AC10221FE96C5B00E8A253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +96,10 @@
 				429735371FA9EEE000AB42BC /* Assets.xcassets */,
 				429735391FA9EEE000AB42BC /* LaunchScreen.storyboard */,
 				4297353C1FA9EEE000AB42BC /* Info.plist */,
+				429735501FA9EF1800AB42BC /* Resources */,
+				422991CC1FB8900D009DB651 /* Extensions.swift */,
+				422991CE1FB890FA009DB651 /* Constants.swift */,
+				42AC10201FE9659F00E8A253 /* Localizable.strings */,
 			);
 			path = CustomFonts;
 			sourceTree = "<group>";
@@ -94,6 +111,15 @@
 				429735471FA9EEE000AB42BC /* Info.plist */,
 			);
 			path = CustomFontsTests;
+			sourceTree = "<group>";
+		};
+		429735501FA9EF1800AB42BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				429735511FA9F08A00AB42BC /* helveticaneuew23forsky-reg.ttf */,
+				429735521FA9F08C00AB42BC /* helveticaneuew23fosky-bd.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +188,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 429735241FA9EEE000AB42BC;
 			productRefGroup = 4297352E1FA9EEE000AB42BC /* Products */;
@@ -180,7 +207,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4297353B1FA9EEE000AB42BC /* LaunchScreen.storyboard in Resources */,
+				42AC101E1FE9659F00E8A253 /* Localizable.strings in Resources */,
+				429735531FA9F08C00AB42BC /* helveticaneuew23forsky-reg.ttf in Resources */,
 				429735381FA9EEE000AB42BC /* Assets.xcassets in Resources */,
+				429735541FA9F08C00AB42BC /* helveticaneuew23fosky-bd.ttf in Resources */,
 				429735361FA9EEE000AB42BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				429735331FA9EEE000AB42BC /* ViewController.swift in Sources */,
+				422991CD1FB8900D009DB651 /* Extensions.swift in Sources */,
 				429735311FA9EEE000AB42BC /* AppDelegate.swift in Sources */,
+				422991CF1FB890FA009DB651 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +259,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				429735351FA9EEE000AB42BC /* Base */,
+				42AC101A1FE9614000E8A253 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -235,8 +268,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				4297353A1FA9EEE000AB42BC /* Base */,
+				42AC101B1FE9614000E8A253 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		42AC10201FE9659F00E8A253 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AC10211FE965A300E8A253 /* ar */,
+				42AC10221FE96C5B00E8A253 /* Base */,
+			);
+			name = Localizable.strings;
+			path = Localizable;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -246,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -303,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -354,12 +400,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UR4F29DJ73;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CustomFonts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Attiamo.CustomFonts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -369,12 +415,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UR4F29DJ73;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CustomFonts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Attiamo.CustomFonts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

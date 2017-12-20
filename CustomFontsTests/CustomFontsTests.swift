@@ -2,8 +2,8 @@
 //  CustomFontsTests.swift
 //  CustomFontsTests
 //
-//  Created by Atia M2 on 11/1/17.
-//  Copyright © 2017 Attia Mo. All rights reserved.
+//  Created by Attia Mo on 11/1/17.
+//  Copyright © 2017 https://Attiamo.me All rights reserved.
 //
 
 import XCTest

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomFonts/Constants.swift"
+            timestampString = "535391615.538879"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "App"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_F9852039BD08E99053419740CFEF05CB_func0"
+                  moduleName = "CustomFonts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/atiaa/Projects/Tutroials/CustomFonts/CustomFonts/Constants.swift"
+                  timestampString = "535391249.731658"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomFonts.Constants.App.regularFont.unsafeMutableAddressor : Swift.String"
+                  moduleName = "CustomFonts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/atiaa/Projects/Tutroials/CustomFonts/CustomFonts/Constants.swift"
+                  timestampString = "535391249.734988"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static CustomFonts.Constants.App.regularFont.getter : Swift.String"
+                  moduleName = "CustomFonts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/atiaa/Projects/Tutroials/CustomFonts/CustomFonts/Constants.swift"
+                  timestampString = "535391249.737843"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

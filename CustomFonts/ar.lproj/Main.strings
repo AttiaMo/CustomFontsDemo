@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Bold"; ObjectID = "gQl-i6-bNi"; */
+"gQl-i6-bNi.text" = "غامق";
+
+/* Class = "UITextField"; text = "Text Feild Bold"; ObjectID = "hsO-zn-onH"; */
+"hsO-zn-onH.text" = "حقل نص غامقه";
+
+/* Class = "UITextField"; text = "Text Feild Regular"; ObjectID = "oJc-mb-yzK"; */
+"oJc-mb-yzK.text" = "حقل نص عادي";
+
+/* Class = "UILabel"; text = "regular"; ObjectID = "tIQ-AU-Nsd"; */
+"tIQ-AU-Nsd.text" = "عادي";
+
+/* Class = "UINavigationItem"; title = "CUSTOM FONTS"; ObjectID = "wft-0z-jNg"; */
+"wft-0z-jNg.title" = "خطوط معدله";

@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  CustomFonts
+
+  Created by Attia Mo on 12/19/17.
+  Copyright © 2017 Attia Mo. All rights reserved.
+*/
+"AppRegularFont" = "Menlo-Regular";
+"AppBoldFont" = "Menlo-Bold";

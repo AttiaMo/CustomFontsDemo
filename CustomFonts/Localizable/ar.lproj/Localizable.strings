@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  CustomFonts
+
+  Created by Attia Mo on 12/19/17.
+  Copyright © 2017 https://Attiamo.me All rights reserved.
+*/
+
+"AppRegularFont" = "HelveticaNeueW23forSKY-Reg";
+"AppBoldFont" = "HelveticaNeueW23foSKY-Bd";
+
+
+
