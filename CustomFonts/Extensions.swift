@@ -11,7 +11,7 @@ import UIKit
 
 extension UILabel {
     
-    var substituteFontName : String {
+   @objc var substituteFontName : String {
         get { return self.font.fontName }
         set {
             if self.font.fontName.range(of:"-Bd") == nil {
@@ -20,7 +20,7 @@ extension UILabel {
         }
     }
     
-    var substituteFontNameBold : String {
+    @objc var substituteFontNameBold : String {
         get { return self.font.fontName }
         set {
             if self.font.fontName.range(of:"-Bd") != nil {
@@ -30,7 +30,7 @@ extension UILabel {
     }
 }
 extension UITextField {
-    var substituteFontName : String {
+    @objc var substituteFontName : String {
         get { return self.font!.fontName }
         set { self.font = UIFont(name: newValue, size: (self.font?.pointSize)!) }
     }
@@ -52,7 +52,7 @@ extension UIViewController {
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
     }
-    func dismissKeyboard() {
+    @objc func dismissKeyboard() {
         view.endEditing(true)
     }
 }
